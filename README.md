@@ -15,8 +15,8 @@
 주변에서 쉽게 볼 수 있는 노점상과 포장마차들. 그러나 평소 접하던 가게가 아닌 경우 영업시간, 위치, 메뉴에 대한 정보를 알기는 쉽지 않습니다.
 
 1. 포장마차의 위치와 관련정보를 실시간으로 제공해주는 서비스가 있으면 어떨까? 
-2.
-3.
+2. 포장마차의 줄서기 예약과 포장 하는걸 쉽게 되었으면 좋겠어
+3. 왜 내주위에는 노점상과 포장마차들이 없을까?
 
 이 불편함을 해소하고자. 
 
@@ -27,16 +27,17 @@
 ## 비즈니스 모델 
 ![Alt text](image.png)
 ## 활용기술
-<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> 
-  <img src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white">
-  <img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> 
-    <img src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=Socket.io&logoColor=white">
-  <img src="https://img.shields.io/badge/mui-0769AD?style=for-the-badge&logo=mui&logoColor=white">
-<img src="https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"> 
-  <img src="https://img.shields.io/badge/NCP-GR?style=for-the-badge&logo=Naver&logoColor=white" >
-  <img src="https://img.shields.io/badge/apache tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white"/> 
-  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white"/> 
+<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white"><img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> <img src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=Socket.io&logoColor=white"><img src="https://img.shields.io/badge/mui-0769AD?style=for-the-badge&logo=mui&logoColor=white"><img src="https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"> <img src="https://img.shields.io/badge/NCP-GR?style=for-the-badge&logo=Naver&logoColor=white" ><img src="https://img.shields.io/badge/apache tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white"/> <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white"/> 
+
+### 기술 선택이유
+Socket.io	
+Axios
+Redis
+node.js
+jwt
+mui
+jenkins
+docker
 
 ## 시스템 아키텍쳐
 
@@ -58,6 +59,8 @@
 <img src="./img/기능3.JPG"  width="600px">
 
 </div>
+
+
 
 ## 팀 소개
 
